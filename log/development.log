@@ -1,0 +1,3124 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-24 18:01:20 +0530
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-24 18:01:58 +0530
+
+ActionController::RoutingError (uninitialized constant MemberController):
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__834413142__call__641580407__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-24 18:01:59 +0530
+
+ActionController::RoutingError (uninitialized constant MemberController):
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `each'
+  activesupport (3.2.0) lib/active_support/inflector/methods.rb:225:in `constantize'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__834413142__call__641580407__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-24 18:02:30 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'members'):
+  app/controllers/members_controller.rb:5:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+  [1m[36m (11.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (19.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (19.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMembers (20120824122435)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120824122435')
+  [1m[36m (89.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("members")
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-24 18:02:57 +0530
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (1.8ms)
+Compiled members.css  (87ms)  (pid 18005)
+Compiled scaffolds.css  (42ms)  (pid 18005)
+Compiled application.css  (313ms)  (pid 18005)
+Compiled jquery.js  (7ms)  (pid 18005)
+Compiled jquery_ujs.js  (0ms)  (pid 18005)
+Compiled members.js  (619ms)  (pid 18005)
+Compiled application.js  (936ms)  (pid 18005)
+Completed 200 OK in 1707ms (Views: 1705.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /application.css - 200 OK (42ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /scaffolds.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /jquery.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /members.js - 200 OK (11ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /members.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:02:59 +0530
+Served asset /application.js - 200 OK (59ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (61.0ms)
+  Rendered members/new.html.erb within layouts/application (88.1ms)
+Completed 200 OK in 119ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /members.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:01 +0530
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"abc", "address"=>"abcd"}, "commit"=>"Create Member"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (67.9ms)[0m  [1mINSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["address", "abcd"], ["created_at", Fri, 24 Aug 2012 12:33:07 UTC +00:00], ["name", "abc"], ["updated_at", Fri, 24 Aug 2012 12:33:07 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/members/1
+Completed 302 Found in 82ms (ActiveRecord: 77.0ms)
+
+
+Started GET "/members/1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMember Load (0.4ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered members/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /members.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:07 +0530
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.7ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:09 +0530
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:10 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.2ms)
+  Rendered members/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /members.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /members.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:11 +0530
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"adf", "address"=>"sdf"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["address", "sdf"], ["created_at", Fri, 24 Aug 2012 12:33:13 UTC +00:00], ["name", "adf"], ["updated_at", Fri, 24 Aug 2012 12:33:13 UTC +00:00]]
+  [1m[36m (103.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/members/2
+Completed 302 Found in 107ms (ActiveRecord: 104.8ms)
+
+
+Started GET "/members/2" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered members/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Served asset /members.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:14 +0530
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (1.1ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 49ms (Views: 26.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /members.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:15 +0530
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:16 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.1ms)
+  Rendered members/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 34ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:16 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:17 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:17 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:17 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:17 +0530
+Served asset /members.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:17 +0530
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"saf", "address"=>"sdaf"}, "commit"=>"Create Member"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["address", "sdaf"], ["created_at", Fri, 24 Aug 2012 12:33:19 UTC +00:00], ["name", "saf"], ["updated_at", Fri, 24 Aug 2012 12:33:19 UTC +00:00]]
+  [1m[35m (8.4ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/members/3
+Completed 302 Found in 13ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/members/3" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMember Load (0.8ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered members/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:19 +0530
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.7ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /members.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:20 +0530
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.7ms)
+  Rendered members/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /members.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /members.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:21 +0530
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"sadf", "address"=>"dsf"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["address", "dsf"], ["created_at", Fri, 24 Aug 2012 12:33:24 UTC +00:00], ["name", "sadf"], ["updated_at", Fri, 24 Aug 2012 12:33:24 UTC +00:00]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/members/4
+Completed 302 Found in 13ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/members/4" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered members/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:24 +0530
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (1.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /members.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:25 +0530
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:26 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.8ms)
+  Rendered members/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:26 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:27 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:27 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:27 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:27 +0530
+Served asset /members.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:27 +0530
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"sdfsd", "address"=>"fdsfds"}, "commit"=>"Create Member"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["address", "fdsfds"], ["created_at", Fri, 24 Aug 2012 12:33:30 UTC +00:00], ["name", "sdfsd"], ["updated_at", Fri, 24 Aug 2012 12:33:30 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/members/5
+Completed 302 Found in 12ms (ActiveRecord: 10.6ms)
+
+
+Started GET "/members/5" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered members/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /members.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:30 +0530
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (1.3ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /members.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:31 +0530
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:32 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (3.3ms)
+  Rendered members/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:32 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:33 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:33 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:33 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:33 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:33 +0530
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:35 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"dsfsd", "address"=>"sdf"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["address", "sdf"], ["created_at", Fri, 24 Aug 2012 12:33:35 UTC +00:00], ["name", "dsfsd"], ["updated_at", Fri, 24 Aug 2012 12:33:35 UTC +00:00]]
+  [1m[36m (114.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/members/6
+Completed 302 Found in 122ms (ActiveRecord: 117.9ms)
+
+
+Started GET "/members/6" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "6"]]
+  Rendered members/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /members.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:36 +0530
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.7ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:37 +0530
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (1.9ms)
+  Rendered members/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /members.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:38 +0530
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"dsf", "address"=>"sdfsd"}, "commit"=>"Create Member"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["address", "sdfsd"], ["created_at", Fri, 24 Aug 2012 12:33:41 UTC +00:00], ["name", "dsf"], ["updated_at", Fri, 24 Aug 2012 12:33:41 UTC +00:00]]
+  [1m[35m (22.2ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/members/7
+Completed 302 Found in 27ms (ActiveRecord: 23.9ms)
+
+
+Started GET "/members/7" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered members/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:41 +0530
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (0.7ms)[0m  SELECT "members".* FROM "members" 
+  Rendered members/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /members.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:42 +0530
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/members/new" for 127.0.0.1 at 2012-08-24 18:03:43 +0530
+Processing by MembersController#new as HTML
+  Rendered members/_form.html.erb (2.8ms)
+  Rendered members/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 34ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:43 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:43 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:43 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:43 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:43 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:44 +0530
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started POST "/members" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hVLrRNtTiAXLmkYFYbZtzh5uwebKdCLG9GrQDsQxtzY=", "member"=>{"name"=>"sdf", "address"=>"sdaf"}, "commit"=>"Create Member"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "members" ("address", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["address", "sdaf"], ["created_at", Fri, 24 Aug 2012 12:33:46 UTC +00:00], ["name", "sdf"], ["updated_at", Fri, 24 Aug 2012 12:33:46 UTC +00:00]]
+  [1m[36m (12.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/members/8
+Completed 302 Found in 17ms (ActiveRecord: 14.5ms)
+
+
+Started GET "/members/8" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1  [["id", "8"]]
+  Rendered members/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:46 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:47 +0530
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Processing by MembersController#index as HTML
+  [1m[36mMember Load (0.7ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered members/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /members.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /members.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:03:48 +0530
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:07:19 +0530
+Processing by MembersController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "members" [0m
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members" LIMIT 20 OFFSET 0
+  Rendered members/index.html.erb within layouts/application (141.2ms)
+Compiled wice_grid.css  (91ms)  (pid 18242)
+Compiled application.css  (150ms)  (pid 18242)
+Compiled jquery-ui.js  (2ms)  (pid 18242)
+Compiled wice_grid_processor.js  (409ms)  (pid 18242)
+Compiled wice_grid_init.js  (152ms)  (pid 18242)
+Compiled wice_grid_saved_queries_init.js  (141ms)  (pid 18242)
+Compiled wice_grid.js  (854ms)  (pid 18242)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 18242)
+Compiled application.js  (1085ms)  (pid 18242)
+Completed 200 OK in 1750ms (Views: 1748.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /application.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /members.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /scaffolds.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /wice_grid.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:21 +0530
+Served asset /jquery-ui.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /wice_grid.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /members.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:07:22 +0530
+Served asset /application.js - 200 OK (54ms)
+
+
+Started GET "/members" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Processing by MembersController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "members" [0m
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" LIMIT 2 OFFSET 0
+  Rendered members/index.html.erb within layouts/application (113.7ms)
+Completed 200 OK in 314ms (Views: 311.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /application.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /members.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /wice_grid.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:38 +0530
+Served asset /jquery-ui.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /wice_grid.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /members.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:39 +0530
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/members?grid%5Bpage%5D=2" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>"2"}}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "members" [0m
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" LIMIT 2 OFFSET 2
+  Rendered members/index.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 130ms (Views: 129.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /wice_grid.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:42 +0530
+Served asset /members.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:43 +0530
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/members?grid%5Bpage%5D=3" for 127.0.0.1 at 2012-08-24 18:08:44 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>"3"}}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "members" [0m
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" LIMIT 2 OFFSET 4
+  Rendered members/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:44 +0530
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:44 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /wice_grid.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /members.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:45 +0530
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/members?grid%5Bpage%5D=4" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>"4"}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "members" [0m
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" LIMIT 2 OFFSET 6
+  Rendered members/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /wice_grid.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /members.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:08:47 +0530
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "members" [0m
+  [1m[35mMember Load (0.2ms)[0m  SELECT "members".* FROM "members" LIMIT 2 OFFSET 0
+  Rendered members/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 105ms (Views: 103.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /members.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /wice_grid.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:13 +0530
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /members.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 18:16:14 +0530
+Served asset /application.js - 304 Not Modified (17ms)
+  [1m[36mSQL (143.3ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:13:02 +0530
+  [1m[35mSQL (140.4ms)[0m  USE [Neptune_Sandbox]
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  Rendered members/index.html.erb within layouts/application (456.9ms)
+Completed 500 Internal Server Error in 962ms
+
+ActionView::Template::Error (undefined method `asc' for nil:NilClass):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb___591542907_95034800'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:20:49 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  Rendered members/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `asc' for nil:NilClass):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb___591542907_91961460'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:20:50 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  Rendered members/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `asc' for nil:NilClass):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb___591542907_91961460'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.2ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:22:38 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[36m (156.7ms)[0m  [1mEXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'[0m
+  [1m[35mMember Load (343.9ms)[0m  EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'
+ArgumentError: argument out of range: EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'
+  Rendered members/index.html.erb within layouts/application (517.6ms)
+Completed 500 Internal Server Error in 540ms
+
+ActionView::Template::Error (ArgumentError: argument out of range: EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb___591542907_94632220'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+  [1m[36mSQL (140.9ms)[0m  [1mUSE [Neptune_Sandbox][0m
+  [1m[36mSQL (150.3ms)[0m  [1mUSE [Neptune_Sandbox][0m
+  [1m[36mSQL (147.5ms)[0m  [1mUSE [Neptune_Sandbox][0m
+  [1m[36mSQL (141.8ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:28:56 +0530
+  [1m[35mSQL (145.4ms)[0m  USE [Neptune_Sandbox]
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[36m (142.2ms)[0m  [1mEXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'[0m
+  [1m[35mMember Load (287.8ms)[0m  EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'
+ArgumentError: argument out of range: EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'
+  Rendered members/index.html.erb within layouts/application (499.2ms)
+Completed 500 Internal Server Error in 554ms
+
+ActionView::Template::Error (ArgumentError: argument out of range: EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb__323307127_89798740'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:32:34 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[36mMember Load (305.1ms)[0m  [1mEXEC sp_executesql N'SELECT [Member].* FROM [Member]'[0m
+ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+Completed 500 Internal Server Error in 307ms
+
+ActiveRecord::StatementInvalid (ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (32.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.4ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:39:35 +0530
+
+ActionController::RoutingError (uninitialized constant LegacyConnection):
+  app/models/member.rb:1:in `<top (required)>'
+  app/controllers/members_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:40:14 +0530
+
+LoadError (Expected /mnt/hgfs/nuscentralbilling/demo_app/app/models/legacy/legacy_connection.rb to define Legacy::LegacyConnection):
+  app/models/member.rb:1:in `<top (required)>'
+  app/controllers/members_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:40:52 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[35mMember Load (298.7ms)[0m  EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+Completed 500 Internal Server Error in 301ms
+
+ActiveRecord::StatementInvalid (ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:42:55 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[36mMember Load (298.4ms)[0m  [1mEXEC sp_executesql N'SELECT [Member].* FROM [Member]'[0m
+ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+Completed 500 Internal Server Error in 300ms
+
+ActiveRecord::StatementInvalid (ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:42:57 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[35mMember Load (296.3ms)[0m  EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+Completed 500 Internal Server Error in 298ms
+
+ActiveRecord::StatementInvalid (ArgumentError: argument out of range: EXEC sp_executesql N'SELECT [Member].* FROM [Member]'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+  [1m[36mSQL (137.7ms)[0m  [1mUSE [Neptune_Sandbox][0m
+  [1m[36mSQL (137.6ms)[0m  [1mUSE [Neptune_Sandbox][0m
+  [1m[36mSQL (154.3ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:51:39 +0530
+  [1m[35mSQL (138.5ms)[0m  USE [Neptune_Sandbox]
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[36mMember Load (291.0ms)[0m  [1mEXEC sp_executesql N'SELECT [Member].* FROM [Member]'[0m
+  [1m[35m (138.9ms)[0m  EXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'
+  [1m[36mMember Load (140.5ms)[0m  [1mEXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'[0m
+  Rendered members/index.html.erb within layouts/application (492.3ms)
+Completed 500 Internal Server Error in 1008ms
+
+ActionView::Template::Error (undefined method `address' for #<Member:0xb1cd7d8>):
+    20:   end
+    21: 	
+    22:   g.column  do |member|
+    23:     member.address
+    24:   end
+    25: 
+    26: end -%>
+  app/views/members/index.html.erb:23:in `block (2 levels) in _app_views_members_index_html_erb___669154086_94336590'
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb___669154086_94336590'
+  app/controllers/members_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/members?grid%5Bpage%5D=" for 127.0.0.1 at 2012-08-27 15:52:46 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>""}}
+  [1m[35m (213.3ms)[0m  EXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'
+  [1m[36mMember Load (153.4ms)[0m  [1mEXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'[0m
+  Rendered members/index.html.erb within layouts/application (447.2ms)
+Completed 200 OK in 1276ms (Views: 908.5ms | ActiveRecord: 366.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /wice_grid.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /jquery.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /members.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /jquery-ui.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /wice_grid.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /members.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 15:52:48 +0530
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/members?grid%5Bpage%5D=2" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>"2"}}
+  [1m[35m (151.2ms)[0m  EXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'
+  [1m[36mMember Load (152.9ms)[0m  [1mEXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (2) ORDER BY [__rnt].[__rn] ASC'[0m
+  Rendered members/index.html.erb within layouts/application (371.1ms)
+Completed 200 OK in 399ms (Views: 94.2ms | ActiveRecord: 304.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /wice_grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:09 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:10 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:10 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:10 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:10 +0530
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:10 +0530
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/members?grid%5Bpage%5D=3" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>"3"}}
+  [1m[35m (149.7ms)[0m  EXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'
+  [1m[36mMember Load (152.6ms)[0m  [1mEXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (4) ORDER BY [__rnt].[__rn] ASC'[0m
+  Rendered members/index.html.erb within layouts/application (383.4ms)
+Completed 200 OK in 415ms (Views: 111.7ms | ActiveRecord: 302.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /wice_grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:12 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:13 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:13 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:13 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:13 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:13 +0530
+Served asset /members.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:13 +0530
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/members?grid%5Bpage%5D=4" for 127.0.0.1 at 2012-08-27 15:53:27 +0530
+Processing by MembersController#index as HTML
+  Parameters: {"grid"=>{"page"=>"4"}}
+  [1m[35m (180.7ms)[0m  EXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'
+  [1m[36mMember Load (158.3ms)[0m  [1mEXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (6) ORDER BY [__rnt].[__rn] ASC'[0m
+  Rendered members/index.html.erb within layouts/application (408.0ms)
+Completed 200 OK in 436ms (Views: 96.6ms | ActiveRecord: 339.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:27 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:27 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:27 +0530
+Served asset /members.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-27 15:53:27 +0530
+Served asset /wice_grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /wice_grid.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /members.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 15:53:28 +0530
+Served asset /application.js - 304 Not Modified (5ms)
+  [1m[36mSQL (197.3ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/exports/view_export" for 127.0.0.1 at 2012-08-27 17:02:44 +0530
+  [1m[35mSQL (151.2ms)[0m  USE [Neptune_Sandbox]
+
+ActionController::RoutingError (No route matches [GET] "/exports/view_export"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/exports" for 127.0.0.1 at 2012-08-27 17:02:53 +0530
+
+ActionController::RoutingError (No route matches [GET] "/exports"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+  [1m[36mSQL (144.1ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/exports" for 127.0.0.1 at 2012-08-27 17:03:46 +0530
+  [1m[35mSQL (143.7ms)[0m  USE [Neptune_Sandbox]
+
+ActionController::RoutingError (No route matches [GET] "/exports"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:46:34 +0530
+  [1m[36mSQL (145.0ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  Rendered members/index.html.erb within layouts/application (46.6ms)
+Completed 500 Internal Server Error in 120ms
+
+ActionView::Template::Error (Could not find table 'Member'):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb___29082946_84517410'
+  app/controllers/members_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:48:35 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:48:36 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:48:37 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMembers (20120827095751)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) 
+SQLite3::SQLException: table "members" already exists: CREATE TABLE "members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (17.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (38.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMembers (20120827095751)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120827095751')
+  [1m[36m (3.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("members")
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:49:46 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:49:47 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:49:48 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:49:48 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:49:49 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:49:50 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:50:53 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.5ms)[0m  select sqlite_version(*)
+  [1m[36m (21.5ms)[0m  [1mCREATE TABLE "members" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [1m[35m (4.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (15.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (18.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120827095751')
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:52:14 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:52:15 +0530
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'Member'):
+  app/controllers/members_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:52:43 +0530
+  [1m[36mSQL (148.7ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  [1m[35mMember Load (315.9ms)[0m  EXEC sp_executesql N'SELECT [Member].* FROM [Member]'
+  Rendered members/index.html.erb within layouts/application (49.0ms)
+Completed 500 Internal Server Error in 496ms
+
+ActionView::Template::Error (Could not find table 'Member'):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb__898889031_79052190'
+  app/controllers/members_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 17:53:39 +0530
+  [1m[36mSQL (140.0ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  Rendered members/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (Could not find table 'Member'):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <%= grid(@members) do |g|
+    13: 
+    14:   g.column do |member|
+    15:     member.id
+  app/views/members/index.html.erb:12:in `_app_views_members_index_html_erb__898889031_79052190'
+  app/controllers/members_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:02 +0530
+
+ActionController::RoutingError (uninitialized constant Legacy):
+  app/legacy/legacy_connection.rb:1:in `<top (required)>'
+  app/legacy/member.rb:1:in `<top (required)>'
+  app/controllers/members_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:03 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__566840105__call__221152775__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:04 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__566840105__call__221152775__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:05 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__566840105__call__221152775__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:06 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__566840105__call__221152775__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:36 +0530
+
+TinyTds::Error (Unable to connect: Adaptive Server is unavailable or does not exist):
+  app/controllers/members_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:24:37 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__566840105__call__221152775__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:25:17 +0530
+
+TinyTds::Error (Unable to connect: Adaptive Server is unavailable or does not exist):
+  app/controllers/members_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:25:19 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__249983812__call__136815438__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:25:20 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__249983812__call__136815438__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:25:20 +0530
+
+NoMethodError (undefined method `key?' for nil:NilClass):
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:36:in `visible_action?'
+  actionpack (3.2.0) lib/action_controller/metal/hide_actions.rb:18:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/implicit_render.rb:14:in `method_for_action'
+  actionpack (3.2.0) lib/action_controller/metal/compatibility.rb:61:in `method_for_action'
+  actionpack (3.2.0) lib/abstract_controller/base.rb:115:in `process'
+  actionpack (3.2.0) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.0) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.0) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.0) lib/action_dispatch/routing/route_set.rb:570:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.0) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `_run__249983812__call__136815438__callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:26:15 +0530
+  [1m[36mSQL (143.6ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  Rendered members/index.html.erb within layouts/application (47.3ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (Could not find table 'Member'):
+    1: <h1>Listing members</h1>
+    2: 
+    3: 
+    4: <%= grid(@members) do |g|
+    5: 
+    6:   g.column do |member|
+    7:     member.id
+  app/views/members/index.html.erb:4:in `_app_views_members_index_html_erb__123085305_92325010'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:45:55 +0530
+  [1m[36mSQL (140.2ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  Rendered members/index.html.erb within layouts/application (47.0ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (Could not find table 'Member'):
+    1: <h1>Listing members</h1>
+    2: 
+    3: 
+    4: <%= grid(@members) do |g|
+    5: 
+    6:   g.column do |member|
+    7:     member.id
+  app/views/members/index.html.erb:4:in `_app_views_members_index_html_erb___992289596_88670170'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:46:13 +0530
+  [1m[36mSQL (140.5ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  Rendered members/index.html.erb within layouts/application (46.7ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (Could not find table 'Member'):
+    1: <h1>Listing members</h1>
+    2: 
+    3: 
+    4: <%= grid(@members) do |g|
+    5: 
+    6:   g.column do |member|
+    7:     member.id
+  app/views/members/index.html.erb:4:in `_app_views_members_index_html_erb__399232907_95032930'
+  app/controllers/members_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 18:49:00 +0530
+  [1m[36mSQL (141.8ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+NameError (uninitialized constant MembersController::Invoice):
+  app/controllers/members_controller.rb:5:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+  [1m[36mSQL (143.8ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 19:12:23 +0530
+  [1m[35mSQL (140.9ms)[0m  USE [Neptune_Sandbox]
+Processing by MembersController#index as HTML
+  [1m[36m (140.0ms)[0m  [1mEXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'[0m
+  [1m[35mMember Load (143.1ms)[0m  EXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'
+  Rendered members/index.html.erb within layouts/application (405.0ms)
+Completed 200 OK in 859ms (Views: 575.0ms | ActiveRecord: 283.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 19:12:27 +0530
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-27 19:12:27 +0530
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:27 +0530
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-27 19:12:27 +0530
+Served asset /members.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /wice_grid.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /jquery-ui.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /wice_grid.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /members.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 19:12:28 +0530
+Served asset /application.js - 200 OK (37ms)
+  [1m[36mSQL (144.5ms)[0m  [1mUSE [Neptune_Sandbox][0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-27 19:13:27 +0530
+  [1m[35mSQL (143.3ms)[0m  USE [Neptune_Sandbox]
+  [1m[36mSQL (141.0ms)[0m  [1mUSE [Neptune_Sandbox][0m
+Processing by MembersController#index as HTML
+  [1m[35m (140.8ms)[0m  EXEC sp_executesql N'SELECT COUNT(*) FROM [Member]'
+  [1m[36mMember Load (142.9ms)[0m  [1mEXEC sp_executesql N'SELECT TOP (2) [__rnt].* FROM ( SELECT ROW_NUMBER() OVER (ORDER BY [Member].[id] ASC) AS [__rn], [Member].* FROM [Member] ) AS [__rnt] WHERE [__rnt].[__rn] > (0) ORDER BY [__rnt].[__rn] ASC'[0m
+  Rendered members/index.html.erb within layouts/application (857.7ms)
+Completed 200 OK in 1000ms (Views: 256.7ms | ActiveRecord: 742.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /members.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/wice_grid.css?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /wice_grid.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /jquery-ui.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/wice_grid_processor.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /wice_grid_processor.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/wice_grid_init.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /wice_grid_init.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/wice_grid_saved_queries_init.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /wice_grid_saved_queries_init.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/wice_grid.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /wice_grid.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /members.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 19:13:34 +0530
+Served asset /application.js - 304 Not Modified (38ms)
+  [1m[36mSQL (146.7ms)[0m  [1mUSE [Neptune_Sandbox][0m
